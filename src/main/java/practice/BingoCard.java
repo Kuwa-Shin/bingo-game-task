@@ -29,9 +29,10 @@ public class BingoCard {
 				// シャッフルしたcolNumberリストから値を0埋め2桁で設定する
 				card[row][col] = String.format("%02d", colNumber.get(row));
 			}
-			// カードの真ん中にFREEを設定する
-			card[2][2] = "FREE";
 		}
+		// カードの真ん中にFREEを設定する
+		card[2][2] = "FREE";
+
 		return card;
 	}
 
