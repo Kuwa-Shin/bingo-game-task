@@ -12,8 +12,8 @@ public class BingoBall {
 	 * 取り出されたビンゴボールを表示します
 	 * @param number ビンゴボールの値
 	 */
-	public static void printingNumber(int number) {
-		System.out.println("ball[" + number + "]：" + number);
+	public static void printingNumber(int number, int listNumber) {
+		System.out.println("ball[" + listNumber + "]：" + number);
 	}
 
 	/**

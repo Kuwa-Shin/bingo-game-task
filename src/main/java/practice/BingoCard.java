@@ -158,9 +158,9 @@ public class BingoCard {
 			bingoCount++;
 		}
 
-		System.out.println("reach:" + reachCount);
-		System.out.println("bingo:" + bingoCount);
-		System.out.println("----------------------------");
+		System.out.println("REACH:" + reachCount);
+		System.out.println("BINGO:" + bingoCount);
+		System.out.println("--------------------");
 	}
 
 }
